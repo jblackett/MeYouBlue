@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="content/styleSquared.css">
+		<link rel="stylesheet" type="text/css" href="content/mediaqueries.css">
+	</head>
+
+	<body>
+
+
+
+		<div class="container header">
+			<div class="contentWrapper header">
+				<a href="#title" class="nav_link special">MeYouBlue</a>
+				<a href="#whatDo" class="nav_link">The Process</a>
+				<a href="#whyDo" class="nav_link">Our Mentality</a>
+				<a href="#thirdMarker" class="nav_link">Making The Sale</a>
+				<!-- <a href="#contact" class="nav_link">Contact Us</a> -->
+			</div>
+		</div>
+		
+		<div class="container title" id="title">
+			<p class="name">Me You Blue</p>
+		</div>
+
+		<div class="container content">			
+			<div class="outsideBorder">
+				<div class="insideBorder">
+					<div class="left-col column">
+						<div class="image">
+							<img class="colImg" src="img/choose2.png" alt="I Choose" />
+						</div>
+						<p class="columnTitle">
+							I Choose
+						</p>
+					</div>						
+				</div>
+			</div>			
+			<div class="outsideBorder">
+				<div class="insideBorder">
+					<div class="center-col column">
+						<div class="image">
+							<img class="colImg" src="img/benefit2.png" alt="You Benefit" />
+						</div>
+						<p class="columnTitle">
+							You Benefit
+						</p>
+					</div>						
+				</div>
+			</div>			
+			<div class="outsideBorder">
+				<div class="insideBorder">
+					<div class="right-col column">
+						<div class="image">
+							<img class="colImg" src="img/WeGrow2.png" alt="We Grow" />
+						</div>
+						<p class="columnTitle">
+							We Grow
+						</p>
+					</div>			
+					
+				</div>
+			</div>
+		</div>	
+
+		<div class="hiddenContent">
+			<div class="hiddenContent1">
+				<p>test info</p>
+			</div>
+			<div class="hiddenContent2">
+				
+			</div>
+			<div class="hiddenContent3">
+				
+			</div>
+		</div>
+
+		<div class="container whatDo" id ="whatDo">
+			<div class="contentWrapper">
+				<h1>What Do We Do</h1>
+				<p class="content first">
+					We take recyclable materials like old bourbon bottles and coal ash and turn it in to beautiful and functional kitchen and bathroom art.
+			</div>
+		</div>
+
+		<div class="container whyDo" id="whyDo">
+		<div class="contentWrapper">
+			<h1>Why We Do It</h1>
+			<p class="content second">
+				Eco Cubed is dedicated to transforming our built environment so that places we live, work, learn and play become tools in our quest for environmental sustainability, economic prosperity and social equality. Buildings represent a tremendous opportunity to mitigate climate change, conserve water, reduce pollution and nurture human health. The green building movement will only succeed in maximizing this opportunity if we all actively engage in an ongoing conversation to drive innovation and transform the marketplace.
+			</p>
+		</div>
+
+		<div class="container whyWant" id="whyWant">		
+		<div class="contentWrapper"  id="test">
+			<p id="thirdMarker">marker</p>
+			<h1>Why You Want This</h1>
+			<p class="content third">
+				Fly ash in concrete is often misunderstood.  Because it is a by-product from another industry, many contractors think of fly ash as "filler".  They consider it to be simply a low-cost additive that allows the concrete producer to make higher profits while utilizing inferior materials.  There is nothing farther from the truth.  <b>Adding fly ash to a concrete mix can provide many benefits.</b>  Here I will attempt to explain what fly ash is, as well as the pros and cons associated with using it.
+			</p>			
+		</div>
+	</div>
+
+
+	</div>
+
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js' type='text/javascript'></script>
+		<script type="text/javascript">
+		    $('.nav_link').click(function () {
+		        var href = $(this).attr('href').toString();
+		        var top = $(href).offset();
+	            
+		        $('html, body').animate({
+		            scrollTop: top.top
+		        }, 2000);
+		    });
+		</script>
+
+		
+	</body>
+
+
+</html>

@@ -1,0 +1,172 @@
+@font-face {
+	font-family: copperplate_gothic_light;
+	src: url('content/copperplate_gothic_light.ttf') format('truetype');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border:12px solid;
+	border-radius:2px;
+	border-color: #3b3b3b;
+	/*width: 80%;*/
+}
+
+
+h1 {
+	font-family: "Copperplate Gothic Light";
+}
+
+.container.header {
+	background-color: #3b3b3b;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+	font-size: 20px;
+}
+
+.container {
+	/*width: 80%;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 55px;
+}
+
+.title, .columnTitle, .header {
+	font-family: "Copperplate Gothic Light";
+	color: #146b9f;
+}
+
+.content {
+	text-align: center;
+	height: 450px;
+	margin: 0;
+}
+
+.left-col {
+    float: left;
+    width:33%;
+}
+.center-col {
+    float: left;
+    width: 33%;
+}
+.right-col {
+    float: right;
+    width: 33%;
+}
+
+.colImg {
+	height: 250px;
+	width: 250px;
+}
+
+/*.first {
+	padding-top: 200px;
+}*/
+
+
+.hiddenContent1{
+	visibility: hidden;
+}
+
+.hiddenContent2 {
+	display: none;
+}
+
+.hiddenContent3 {
+	display: none;
+}
+
+/*.first {	
+	display: inline-block;
+	vertical-align: middle;
+}*/
+
+/********** Hyperlink Styles **********/
+.nav_link {	
+	text-decoration: none;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.nav_link:hover {
+	background-color: rgba(255,255,255,0.35);
+	color: #4ab957;
+}
+
+#topOfPage, #thirdMarker {
+	visibility: hidden;
+	font-size: 1;
+}
+
+.whatDo, .whyDo, .whyWant {
+	padding-top: 200px;
+}
+
+
+
+/********** Content Wrappers **********/
+.contentWrapper {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+}
+
+.contentWrapper.header {
+	padding: 0.5625rem;
+}
+
+/********** Containers **********/
+.container {
+	margin: 0;
+}
+
+.container.whatDo {
+	background-color: #4AB957;
+	min-height: 100%;
+	margin: 0;
+}
+
+.container.whyDo {
+	background-color: #146b9f;
+	color: white;
+	min-height: 100%;	
+	margin: 0;
+}
+
+.container.whyWant {
+	background-color: white;	
+	min-height: 100%;
+	color: black;
+}
+
+p.content{
+	font-family: "Copperplate Gothic Light";	
+	text-align: justify;
+}
+
+.container.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+/*colors{
+	blue: #146b9f;
+	green: #4ab957;
+	grey: #3b3b3b;
+	white: #feffff;
+}*/
